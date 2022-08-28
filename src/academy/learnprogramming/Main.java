@@ -1,14 +1,16 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.MegaByteConverter.printMegaBytesAndKiloBytes;
+
+import static academy.learnprogramming.BarkingDog.shouldWakeUp;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        printMegaBytesAndKiloBytes(2500);
-        printMegaBytesAndKiloBytes(-1024);
-        printMegaBytesAndKiloBytes(5000);
+        System.out.println(shouldWakeUp (true, 1));
+        System.out.println(shouldWakeUp (false, 2));
+        System.out.println(shouldWakeUp (true, 8));
+        System.out.println(shouldWakeUp (true, -1));
 
     }
 }
