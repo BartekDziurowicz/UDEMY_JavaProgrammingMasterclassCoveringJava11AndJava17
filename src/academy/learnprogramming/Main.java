@@ -1,16 +1,14 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.SpeedConverter.printConversion;
+import static academy.learnprogramming.MegaByteConverter.printMegaBytesAndKiloBytes;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        printConversion(1.5);
-        printConversion(10.25);
-        printConversion(-5.6);
-        printConversion(25.42);
-        printConversion(75.114);
+        printMegaBytesAndKiloBytes(2500);
+        printMegaBytesAndKiloBytes(-1024);
+        printMegaBytesAndKiloBytes(5000);
 
     }
 }
