@@ -1,16 +1,15 @@
 package academy.learnprogramming;
 
-
-import static academy.learnprogramming.BarkingDog.shouldWakeUp;
+import static academy.learnprogramming.LeapYearCalculator.isLeapYear;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(shouldWakeUp (true, 1));
-        System.out.println(shouldWakeUp (false, 2));
-        System.out.println(shouldWakeUp (true, 8));
-        System.out.println(shouldWakeUp (true, -1));
+        System.out.println(isLeapYear(-1600));
+        System.out.println(isLeapYear(1600));
+        System.out.println(isLeapYear(2017));
+        System.out.println(isLeapYear(2000));
 
     }
 }
