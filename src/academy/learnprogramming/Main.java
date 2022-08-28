@@ -3,15 +3,31 @@ package academy.learnprogramming;
 public class Main {
 
     public static void main(String[] args) {
-        double first = 20.00;
-        double second = 80.00;
-        double total = (first + second) * 100;
-        double remainder = total%40.00;
-        boolean bool = (remainder==0) ? true : false;
-        System.out.println(bool);
-        if (!bool) {
-            System.out.println("Got some remainder!");
+
+        boolean gameOver = true;
+        int score = 800;
+        int levelCompleted = 5;
+        int bonus = 100;
+
+        if (gameOver==true) {
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println(finalScore);
+
+            score = 10000;
+            levelCompleted = 8;
+            bonus = 200;
+            finalScore = score + (levelCompleted * bonus);
+            System.out.println(finalScore);
         }
+
+        if (gameOver) {
+            score = 10000;
+            levelCompleted = 8;
+            bonus = 200;
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println(finalScore);
+        }
+
     }
 
 }
