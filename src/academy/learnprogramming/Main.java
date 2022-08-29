@@ -1,15 +1,14 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.AreaCalculator.area;
+import static academy.learnprogramming.MinutesToYearAndDaysCalculator.printYearsAndDays;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(area(5.0));
-        System.out.println(area(-1));
-        System.out.println(area(5.0, 4.0));
-        System.out.println(area(-1.0, 4.0));
+        printYearsAndDays(525600);
+        printYearsAndDays(1051200);
+        printYearsAndDays(561600);
 
     }
 }
