@@ -1,14 +1,14 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.PlayingCat.isCatPlaying;
+import static academy.learnprogramming.NumberInWord.printNumberInWord;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(isCatPlaying(true, 10));
-        System.out.println(isCatPlaying(false, 36));
-        System.out.println(isCatPlaying(false, 35));
+        printNumberInWord(0);
+        printNumberInWord(5);
+        printNumberInWord(10);
 
     }
 }
