@@ -1,15 +1,14 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.EqualityPrinter.printEqual;
+import static academy.learnprogramming.PlayingCat.isCatPlaying;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        printEqual(1, 1, 1);
-        printEqual(1, 1, 2);
-        printEqual(-1, -1, -1);
-        printEqual(1, 2, 3);
+        System.out.println(isCatPlaying(true, 10));
+        System.out.println(isCatPlaying(false, 36));
+        System.out.println(isCatPlaying(false, 35));
 
     }
 }
