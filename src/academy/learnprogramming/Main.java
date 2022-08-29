@@ -1,14 +1,15 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.MinutesToYearAndDaysCalculator.printYearsAndDays;
+import static academy.learnprogramming.EqualityPrinter.printEqual;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        printYearsAndDays(525600);
-        printYearsAndDays(1051200);
-        printYearsAndDays(561600);
+        printEqual(1, 1, 1);
+        printEqual(1, 1, 2);
+        printEqual(-1, -1, -1);
+        printEqual(1, 2, 3);
 
     }
 }
