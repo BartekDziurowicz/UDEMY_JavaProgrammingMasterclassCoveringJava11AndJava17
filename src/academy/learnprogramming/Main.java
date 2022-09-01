@@ -1,14 +1,14 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.SharedDigit.hasSharedDigit;
+import static academy.learnprogramming.LastDigitChecker.hasSameLastDigit;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(hasSharedDigit(12, 23));
-        System.out.println(hasSharedDigit(9, 99));
-        System.out.println(hasSharedDigit(15, 55));
+        System.out.println(hasSameLastDigit (41, 22, 71));
+        System.out.println(hasSameLastDigit (23, 32, 42));
+        System.out.println(hasSameLastDigit (9, 99, 999));
 
     }
 }
