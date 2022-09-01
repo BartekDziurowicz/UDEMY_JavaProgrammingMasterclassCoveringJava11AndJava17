@@ -1,16 +1,14 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.FirstAndLastDigitSum.sumFirstAndLastDigit;
+import static academy.learnprogramming.EvenDigitSum.getEvenDigitSum;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(sumFirstAndLastDigit(252));
-        System.out.println(sumFirstAndLastDigit(257));
-        System.out.println(sumFirstAndLastDigit(0));
-        System.out.println(sumFirstAndLastDigit(5));
-        System.out.println(sumFirstAndLastDigit(-10));
+        System.out.println(getEvenDigitSum(123456789));
+        System.out.println(getEvenDigitSum(252));
+        System.out.println(getEvenDigitSum(-22));
 
     }
 }
