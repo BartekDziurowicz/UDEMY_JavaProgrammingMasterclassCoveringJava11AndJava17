@@ -1,15 +1,15 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.AllFactors.printFactors;
+import static academy.learnprogramming.PerfectNumber.isPerfectNumber;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        printFactors(6);
-        printFactors(32);
-        printFactors(10);
-        printFactors(-1);
+        System.out.println(isPerfectNumber(6));
+        System.out.println(isPerfectNumber(28));
+        System.out.println(isPerfectNumber(5));
+        System.out.println(isPerfectNumber(-1));
 
     }
 }
