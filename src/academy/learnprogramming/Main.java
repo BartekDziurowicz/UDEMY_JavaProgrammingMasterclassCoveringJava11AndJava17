@@ -1,14 +1,15 @@
 package academy.learnprogramming;
 
-import static academy.learnprogramming.LastDigitChecker.hasSameLastDigit;
+import static academy.learnprogramming.GreatestCommonDivisor.getGreatestCommonDivisor;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(hasSameLastDigit (41, 22, 71));
-        System.out.println(hasSameLastDigit (23, 32, 42));
-        System.out.println(hasSameLastDigit (9, 99, 999));
+        System.out.println(getGreatestCommonDivisor(25, 15));
+        System.out.println(getGreatestCommonDivisor(12, 30));
+        System.out.println(getGreatestCommonDivisor(9, 18));
+        System.out.println(getGreatestCommonDivisor(81, 153));
 
     }
 }
