@@ -1,14 +1,12 @@
 package academy.learnprogramming;
 
-
-import static academy.learnprogramming.DiagonalStar.printSquareStar;
+import static academy.learnprogramming.InputCalculator.inputThenPrintSumAndAverage;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        printSquareStar(5);
-        printSquareStar(8);
+        inputThenPrintSumAndAverage();
 
     }
 }
