@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        SortedArray sortedArray = new SortedArray();
-        sortedArray.printArray(sortedArray.sortArray(sortedArray.getIntegers(5)));
+        MinimumElement minimumElement = new MinimumElement();
+        System.out.println("Smallest element is: "+minimumElement.findMin(minimumElement.readElements(minimumElement.readInteger())));
 
     }
 }
